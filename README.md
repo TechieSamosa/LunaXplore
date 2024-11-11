@@ -7,20 +7,17 @@
   <img src="https://img.shields.io/badge/Contributions-Welcome-orange" alt="Contributions Welcome">
 </div>
 
-<a href="https://github.com/username/LunaVision-PSR-ImageLab/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=username/LunaVision-PSR-ImageLab" />
-</a>
-
 <div align='center'>
-  <img src="https://img.shields.io/github/contributors/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=blue" alt="GitHub contributors">
-  <img src="https://img.shields.io/github/issues-closed-raw/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=brightgreen" alt="GitHub Closed issues">
-  <img src="https://img.shields.io/github/issues-pr/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=aqua" alt="GitHub PR Open">
-  <img src="https://img.shields.io/github/issues-pr-closed-raw/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=blue" alt="GitHub PR closed">
-  <img src="https://img.shields.io/github/languages/count/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=brightgreen" alt="GitHub language count">
-  <img src="https://img.shields.io/github/last-commit/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=blue" alt="GitHub last commit">
+  <img src="https://img.shields.io/github/contributors/TechieSamosa/LunaVision-PSR-ImageLab?style=for-the-badge&color=blue" alt="GitHub contributors">
+  <img src="https://img.shields.io/github/issues-closed-raw/TechieSamosa/LunaVision-PSR-ImageLab?style=for-the-badge&color=brightgreen" alt="GitHub Closed issues">
+  <img src="https://img.shields.io/github/issues-pr/TechieSamosa/LunaVision-PSR-ImageLab?style=for-the-badge&color=aqua" alt="GitHub PR Open">
+  <img src="https://img.shields.io/github/issues-pr-closed-raw/TechieSamosa/LunaVision-PSR-ImageLab?style=for-the-badge&color=blue" alt="GitHub PR closed">
+  <img src="https://img.shields.io/github/languages/count/TechieSamosa/LunaVision-PSR-ImageLab?style=for-the-badge&color=brightgreen" alt="GitHub language count">
+  <img src="https://img.shields.io/github/last-commit/TechieSamosa/LunaVision-PSR-ImageLab?style=for-the-badge&color=blue" alt="GitHub last commit">
   <img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?style=for-the-badge" alt="Maintained">
-  <img src="https://img.shields.io/github/repo-size/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=aqua" alt="Repo Size">
+  <img src="https://img.shields.io/github/repo-size/TechieSamosa/LunaVision-PSR-ImageLab?style=for-the-badge&color=aqua" alt="Repo Size">
 </div>
+
 
 ---
 
@@ -92,10 +89,10 @@ We welcome contributions from the community! Please follow the steps below:
 
 Upon approval, your contributions will be merged, and your name will be added to the list of contributors automatically.
 
-## 🏅 **Automated Contributor Acknowledgment**
+## 🏅 **Contributors**
 
-<a href="https://github.com/username/LunaVision-PSR-ImageLab/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=username/LunaVision-PSR-ImageLab" />
+<a href="https://github.com/TechieSamosa/LunaVision-PSR-ImageLab/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=TechieSamosa/LunaVision-PSR-ImageLab" />
 </a>
 
 ## 📚 **Research and References**
