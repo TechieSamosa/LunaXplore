@@ -1,6 +1,28 @@
 # 🌕 **LunaVision-PSR-ImageLab** 🌑
 
-![Project Status](https://img.shields.io/badge/Project%20Status-Active-brightgreen) ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red) ![Python](https://img.shields.io/badge/Python-3.8%2B-yellow) ![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
+<div align='center'>
+  <img src="https://img.shields.io/badge/Project%20Status-Active-brightgreen" alt="Project Status">
+  <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red" alt="License">
+  <img src="https://img.shields.io/badge/Python-3.11%2B-yellow" alt="Python Version">
+  <img src="https://img.shields.io/badge/Contributions-Welcome-orange" alt="Contributions Welcome">
+</div>
+
+<a href="https://github.com/username/LunaVision-PSR-ImageLab/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=username/LunaVision-PSR-ImageLab" />
+</a>
+
+<div align='center'>
+  <img src="https://img.shields.io/github/contributors/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=blue" alt="GitHub contributors">
+  <img src="https://img.shields.io/github/issues-closed-raw/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=brightgreen" alt="GitHub Closed issues">
+  <img src="https://img.shields.io/github/issues-pr/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=aqua" alt="GitHub PR Open">
+  <img src="https://img.shields.io/github/issues-pr-closed-raw/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=blue" alt="GitHub PR closed">
+  <img src="https://img.shields.io/github/languages/count/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=brightgreen" alt="GitHub language count">
+  <img src="https://img.shields.io/github/last-commit/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=blue" alt="GitHub last commit">
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?style=for-the-badge" alt="Maintained">
+  <img src="https://img.shields.io/github/repo-size/username/LunaVision-PSR-ImageLab?style=for-the-badge&color=aqua" alt="Repo Size">
+</div>
+
+---
 
 ## 🚀 **Project Overview**
 
@@ -59,6 +81,23 @@ Our solution employs state-of-the-art **Generative Adversarial Networks (GANs)**
 - **Assist Future Missions:** Help identify optimal landing sites for future lunar missions by delivering detailed imaging of previously obscured regions.
 - **Promote Innovation in Space Imaging:** Encourage the development of advanced AI and image processing technologies tailored to space exploration.
 
+## 🎯 **Contribution Guidelines**
+
+We welcome contributions from the community! Please follow the steps below:
+
+1. **Fork the Repository:** Start by forking this repository to your GitHub account.
+2. **Open an Issue:** Before working on any changes, open an issue in the main repository to describe your proposed modifications.
+3. **Create a Pull Request:** Once your changes are ready, create a pull request (PR) from your forked repository to the main repository. Reference the related issue in your PR description.
+4. **Adhere to Coding Standards:** Follow consistent code styling and include comments where necessary for clarity.
+
+Upon approval, your contributions will be merged, and your name will be added to the list of contributors automatically.
+
+## 🏅 **Automated Contributor Acknowledgment**
+
+<a href="https://github.com/username/LunaVision-PSR-ImageLab/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=username/LunaVision-PSR-ImageLab" />
+</a>
+
 ## 📚 **Research and References**
 
 - **"LLNet: A Deep Autoencoder Approach to Natural Low-light Image Enhancement"**
@@ -69,14 +108,10 @@ Our solution employs state-of-the-art **Generative Adversarial Networks (GANs)**
 - **"Imaging and Analysis of Lunar Polar Regions: Challenges and Techniques"**
 - **"Enhancement of Low-Light Satellite Images using Deep Convolutional Neural Networks"**
 
-## 🏅 **Contributors**
-
-- **Team LunaVision**
-
 ## 🔒 **License**
 
-All rights reserved. Redistribution, modification, or use of this code and methodology for commercial purposes is prohibited without explicit permission from the authors. Unauthorized usage of the project code or its components is strictly prohibited to preserve the project's integrity and purpose.
+All rights reserved. Redistribution, modification, or use of this code for any commercial, competitive, hackathon, personal, or academic project purposes is strictly prohibited without the express written permission of the authors. Unauthorized use, reproduction, or distribution of this code or any project components is forbidden to protect the project’s integrity and intended purpose.
 
 ---
 
-Let’s illuminate the mysteries of the Moon’s shadowed regions! 🌙✨
+Together, let’s unlock the mysteries of the Moon’s hidden regions! 🌙✨
