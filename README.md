@@ -23,71 +23,76 @@
 
 ## 🚀 **Project Overview**
 
-**LunaVision-PSR-ImageLab** is a pioneering project developed to enhance low-light images captured from the **Permanently Shadowed Regions (PSR)** of lunar craters by the **Orbiter High-Resolution Camera (OHRC)** onboard Chandrayaan-2. These lunar poles' regions are in constant shadow, receiving only minimal reflected light, making it challenging to obtain high Signal-to-Noise Ratio (SNR) images suitable for scientific analysis and exploration.
+**LunaVision-PSR-ImageLab** is an innovative project designed to enhance low-light images captured in the **Permanently Shadowed Regions (PSR)** of lunar craters by the **Orbiter High-Resolution Camera (OHRC)** onboard Chandrayaan-2. These regions, located near the lunar poles, remain in perpetual darkness, posing challenges for obtaining high Signal-to-Noise Ratio (SNR) images for exploration and scientific analysis.
 
 ## 🌟 **Proposed Solution**
 
-Our solution employs state-of-the-art **Generative Adversarial Networks (GANs)** in combination with **Retinex Theory** to significantly improve the visibility and clarity of PSR images under extreme low-light conditions. By harnessing the generative capabilities of GANs and Retinex Theory’s approach to simulate human vision through light and color balance, **LunaVision-PSR-ImageLab** strives to produce a high-resolution PSR image map of the lunar poles, which is crucial for:
-- 🛬 **Landing Site Selection:** Identifying scientifically valuable and safe sites for future lunar missions.
-- 🏞 **Geomorphological Studies:** Supporting lunar surface feature analysis to enhance understanding of lunar geology.
+Our solution combines advanced **Deep Learning** and **Image Processing** techniques to enhance PSR images. Using a custom workflow of **Contrast Enhancement**, **Denoising Algorithms**, and **Low-Light Generative Adversarial Networks (GANs)**, **LunaVision-PSR-ImageLab** produces a high-resolution PSR image map of the lunar poles, crucial for:
+- 🛬 **Landing Site Selection:** Identifying suitable sites for future lunar missions.
+- 🏞 **Geomorphological Studies:** Supporting lunar surface feature analysis to understand the geological history.
 
 ## 🛠️ **Technical Approach**
 
 ### **Technologies Used**
-- **Programming Languages:** Python (for GAN and image processing), MATLAB
-- **Frameworks/Libraries:** TensorFlow for GANs, OpenCV for image preprocessing, Retinex Theory-based custom algorithms
-- **Hardware Requirements:** High-performance computing resources for efficient model training and large dataset processing
+- **Programming Languages:** Python (for deep learning, image processing), MATLAB (for optional image processing tasks)
+- **Frameworks/Libraries:** TensorFlow and Keras for GANs, OpenCV for image preprocessing, Retinex Theory-based custom algorithms for color balancing
+- **Hardware Requirements:** High-performance computing (HPC) resources for efficient model training and data processing
 
 ### **Methodology**
 
-1. **Image Acquisition:** Obtain raw images of PSR regions captured by Chandrayaan-2's OHRC.
-  
-2. **Data Preprocessing:** Normalize and reduce noise from images to prepare high-quality input for the model.
+1. **Data Acquisition and Preprocessing**:
+   - **Data Sources**: Utilize OHRC images as the primary dataset and leverage supporting data from DFSAR (terrain data), IIRS (infrared spectra), CLASS (elemental abundances), and SPICE (geometric and timing data) to add spatial, spectral, and contextual information.
+   - **Preprocessing**: Apply normalization, noise reduction, and coordinate alignment using SPICE data for accurate mapping of PSR regions.
 
-3. **Image Enhancement with GANs:**
-   - **GAN Setup:** A Deep Convolutional GAN (DCGAN) structure is tailored for enhancing lunar PSR imagery.
-   - **Training Process:** Train the GAN using a curated set of 208 low-light images, iteratively refining the network to generate high-resolution, detail-enhanced images from low-light data.
+2. **Image Enhancement Pipeline**:
+   - **Low-Light Image Denoising**: Utilize Non-Local Means and deep-learning-based DnCNN models to reduce noise without obscuring essential features.
+   - **Contrast Enhancement**: Apply Contrast Limited Adaptive Histogram Equalization (CLAHE) to improve visibility of shadowed regions.
+   - **Low-Light GAN Model**: Develop a custom GAN to further enhance image quality by generating high-resolution, detail-enhanced images from the low-light input.
 
-4. **Retinex Theory Application:** Integrate Retinex Theory to further enhance perceptual quality, optimizing the balance of light and color for clearer image output.
+3. **Retinex Theory Application**:
+   - **Theory Integration**: Apply Retinex-based processing to simulate human vision perception, balancing light and color to bring out details in low-light areas.
 
-5. **Post-Processing:** Utilize contrast adjustment, edge sharpening, and additional noise reduction techniques to produce final high-resolution images.
+4. **Auxiliary Data Integration**:
+   - **DFSAR Overlay**: Add radar-based terrain details to enhance structural features in PSR regions.
+   - **IIRS and CLASS Overlays**: Integrate spectral and elemental data for a more comprehensive analysis, highlighting geological compositions.
 
-6. **Spherical Visualization of the Lunar Surface:** Organize enhanced images in a spherical format for a comprehensive "moon-view" visualization, highlighting PSR areas on the lunar poles.
+5. **Spherical Visualization of the Lunar Surface**:
+   - **Map Creation**: Organize enhanced PSR images into a lunar polar map, with PSR areas prominently visualized.
 
-7. **Output:** The final output is a detailed, high-resolution PSR image map intended for advanced scientific analysis and exploration.
+6. **Output**: The final product is a detailed, high-resolution PSR image map, accessible via a user-friendly interface for mission planning, scientific research, and exploration.
 
 ## 💡 **Unique Features**
 
-- **High-Resolution Lunar PSR Mapping:** Generates a clear image map of PSR regions to facilitate mission planning, scientific analysis, and geological studies.
-- **Fusion with SAR Data (Optional):** Enables integration of Synthetic Aperture Radar (SAR) data to amplify structural details in PSR regions.
+- **High-Resolution Lunar PSR Mapping**: Provides detailed, clear visualizations of PSR regions for scientific and mission-planning use.
+- **Multi-Spectral and SAR Data Fusion**: Optional integration with Synthetic Aperture Radar (SAR) and infrared data for enhanced analysis of structural and compositional details.
 
 ## 🧠 **Feasibility and Viability**
 
 ### **Challenges**
-- **Training GANs on Limited PSR Data:** The unique nature of lunar PSR images requires specialized training techniques.
-- **Balancing Computational Load:** Processing large datasets and running complex GAN models demand significant computational resources.
+- **Low-Light Data Complexity**: Processing low-light lunar images with limited PSR data samples requires specialized training techniques.
+- **Computational Requirements**: High computational load for processing large datasets and training GANs on low-light imagery.
 
 ### **Strategies**
-- **GAN Regularization and Optimization:** Employ techniques like regularization to prevent overfitting, while optimizing GAN parameters for efficient training.
-- **High-Performance Computing:** Leverage HPC resources to streamline data processing and model training.
+- **Model Optimization and Regularization**: Use techniques like GAN regularization to prevent overfitting and maintain efficient model training.
+- **High-Performance Computing**: Utilize HPC resources to expedite data processing and model training.
 
 ## 🌍 **Impact and Benefits**
 
 **LunaVision-PSR-ImageLab** aims to:
-- **Advance Lunar Science:** Support lunar geological studies by providing high-quality data from PSR regions.
-- **Assist Future Missions:** Help identify optimal landing sites for future lunar missions by delivering detailed imaging of previously obscured regions.
-- **Promote Innovation in Space Imaging:** Encourage the development of advanced AI and image processing technologies tailored to space exploration.
+- **Advance Lunar Science**: Contribute valuable, high-resolution data for lunar geological studies and research.
+- **Support Future Missions**: Aid in the identification of optimal landing sites for lunar exploration by producing clear images of shadowed regions.
+- **Promote Technological Innovation in Space Imaging**: Lead advancements in AI and image processing for space exploration applications.
 
 ## 🎯 **Contribution Guidelines**
 
-We welcome contributions from the community! Please follow the steps below:
+We welcome contributions from the community! Please follow these steps:
 
-1. **Fork the Repository:** Start by forking this repository to your GitHub account.
-2. **Open an Issue:** Before working on any changes, open an issue in the main repository to describe your proposed modifications.
-3. **Create a Pull Request:** Once your changes are ready, create a pull request (PR) from your forked repository to the main repository. Reference the related issue in your PR description.
-4. **Adhere to Coding Standards:** Follow consistent code styling and include comments where necessary for clarity.
+1. **Fork the Repository**: Fork this repository to your GitHub account.
+2. **Open an Issue**: Before starting any work, open an issue to describe your proposed changes.
+3. **Create a Pull Request**: Once your changes are ready, create a pull request from your forked repository to the main repository. Reference the related issue in your PR description.
+4. **Adhere to Coding Standards**: Ensure consistent code styling and include comments for clarity.
 
-Upon approval, your contributions will be merged, and your name will be added to the list of contributors automatically.
+After approval, your contributions will be merged, and your name will be added to the list of contributors automatically.
 
 ## 🏅 **Contributors**
 
